@@ -1,0 +1,6 @@
+import java.util.Scanner;
+class CheckSign{
+public static void main(String[] qwe){
+Scanner n=new Scanner(System.in);
+int n=scan.nextInt();
+if(n%==0){
