@@ -5,10 +5,10 @@ System.out.println("enter the number");
 Scanner n=new Scanner(System.in);
 int n=scan.nextInt();
 if(n%==0){
-System.out.println("it is even");
+System.out.println("Even");
 }
 else{
-System.out.println("it is odd");
+System.out.println("Odd");
 }
 }
 }
