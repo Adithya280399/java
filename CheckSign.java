@@ -4,13 +4,13 @@ public static void main(String[] qwe){
 Scanner scan=new Scanner(System.in);
 int a=scan.nextInt();
 if(a<0){
-System.out.println("it is -ve");
+System.out.println("Negative");
 }
 else if(a>0){
-System.out.println("it is positive");
+System.out.println("Positive");
 }
 else{
-System.out.println("its is Zero");
+System.out.println("Zero");
 }
 }
 }
