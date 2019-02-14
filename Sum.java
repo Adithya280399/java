@@ -1,12 +1,11 @@
 import java.util.Scanner;
-class Sum{
+class Sumof{
 public static void main(String[] args){
-System.out.println("enter the number");
 Scanner n=new Scanner(System.in);
 int a=n.nextInt();
 int s=0;
-for(int i=1;i<=a;i++){
+for(int i=1;i<=a;i++)
 s=s+i;
-System.out.println("the sum is"+s);
+System.out.println(s);
 }
 }
