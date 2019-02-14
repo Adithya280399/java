@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class NumK{
 public static void main(String[] args){
-System.out.println("enter the number");
 Scanner scan=new Scanner(System.in);
 int sum=0;
 int N =scan.nextInt();
@@ -13,6 +12,6 @@ arr[i]=temp;
 }
 for(int k=0;k<K;k++)
 sum=sum+arr[k];
-System.out.println("output"+sum);
+System.out.println(sum);
 }
 }
