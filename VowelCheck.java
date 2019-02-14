@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Vowel{
+class VowelCheck{
 public static void main(String[] qwe){
 
 Scanner scan=new Scanner(System.in);
