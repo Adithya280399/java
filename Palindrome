@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class Palindrome{
 public static void main(String[] args){
-System.out.println("enter the number");
 Scanner n=new Scanner(System.in);
 int a=n.nextInt();
 int rem=0;
@@ -13,10 +12,10 @@ rev=(rev*10)+rem;
 temp=temp/10;
 }
 if(a==rev){
-System.out.println("it is a palindrome");
+System.out.println("yes");
 }
 else{
-System.out.println("sit is not a palindrome");
+System.out.println("no");
 }
 }
 }
