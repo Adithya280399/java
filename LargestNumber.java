@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class LargestNumber{
 public static void main(String[] args){
-System.out.println("Enter the number");
 Scanner scan=new Scanner(System.in);
 int x=scan.nextInt();
 int y=scan.nextInt();
