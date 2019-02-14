@@ -7,13 +7,13 @@ int x=scan.nextInt();
 int y=scan.nextInt();
 int z=scan.nextInt();
 if(x>y&&x>z){
-System.out.println(x+"is largest");
+System.out.println(x);
 }
 else if(y>x&&y>z){
-System.out.println(y+"is that largest");
+System.out.println(y);
 }
 else {
-System.out.println(z+"is the largest");
+System.out.println(z);
 }
 }
 }
