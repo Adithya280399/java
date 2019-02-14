@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Sumof{
+class Sum{
 public static void main(String[] args){
 Scanner n=new Scanner(System.in);
 int a=n.nextInt();
